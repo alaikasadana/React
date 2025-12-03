@@ -1,0 +1,119 @@
+#react is a "js library"
+
+#library can be changed 
+framework cannot be changed
+
+#we use react for USER-INTERFACE
+we use react taki jbh ek page se dusre page mei jane mei time lgta hai wo process krne wo
+ time lgta hai usko avoid krne ke liye
+
+
+#react js (web)
+react native (mobile)
+
+#jordan walk 2011 (facebook developer)
+2013 mei open source krdi thi
+
+#react features
+->components {reusability}
+->state {data}  (jo dynamically change hota hai)
+
+
+#react will work on single page application mtlb jaha header and footer fix hai bss main part ke components change honge
+through react 
+
+cdn = content delivery network
+
+we connect html and react through cdn
+
+react+bundler (vite)
+bundler 
+
+   bundler (vite)
+   will create project directly 
+   we dont have to make it manually 
+
+   vite = high demand , easy to manage
+
+
+
+***************************************************IMP COMMANDS**********************************************************
+
+
+to check nodejs is in the system write =  { node -v }
+{npm -v } = node package
+
+
+=> to create project 
+npm create vite@latest
+
+=> to run your react application
+npm run dev
+
+=>to install node modules
+npm install / npm i
+
+*******************************************************************************************************************************
+
+NODE MODULES : mei packages and dependencies hoti haii
+PUBLIC : static files are present in public  (audio video images)
+SRC : (source) components  
+ASSESTS : dynamic images
+INDEX.HTML : { chdna mt } sari files connected rhti h index.html se
+ESLINT.CONFIG.JS : quality of code check krti hai 
+PACKAGE-LOCK.JSON : versions lock hote hai taki infuture bhi use kr sake usko
+PACKAGE.JSON : packages and dependency ki entry hoti h 
+VITE.CONFIG.JS : react ki entry configration of vite
+
+
+
+app.jsx => root component
+
+there are two types of components
+1)class based component
+2)functional based component
+
+functionname ka first letter should be capital
+return mei () use honge jismei jsx likhte hai 
+export krna is imp export default function_name
+jsx = XML = Extensible Markup Language
+jsx isliye bani thi taki html js mei easily likh sake
+rule 1 : 1 element return hota hai
+rule 2 : functionname ka first letter should be capital
+rule 3 : if we want to declare variable we use {} example = {name}
+rule 4 : in html we use to use class but here we use className
+rule 5 : jsx ke andr if else use nhi hoga we will use ternary operator instead 
+fragment = <></> is an empty element where  multiple elements can be declared  or you can also use <div></div>
+non container tags are use as <elementname/>
+
+
+react convert hota js mei through bable
+app.css = localy mainly for components use hoti h
+index.css = globally use hoti hai for entier project
+
+
+css can be written in two ways inline and external
+
+inline css
+{}-1st curly brace for jsx
+{}-2nd curly brace for object
+only camelcase allowed 
+
+if we want to use any variable of js or declare we will use that above return and then access inside jsx by {}
+
+jo img public mei rhti h wo sirf name se access hojati hai
+
+
+tailwind latest version 4.1
+npm install tailwindcss @tailwindcss/vite
+install
+configure (vite.config.js)
+import (globally index.css)
+
+config
+
+import tailwindcss from '@tailwindcss/vite'
+and this in plugins : tailwindcss(),
+
+import in index.css
+@import "tailwindcss";
