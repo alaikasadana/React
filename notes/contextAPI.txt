@@ -1,0 +1,14 @@
+CONTEXTAPI mei teen chiz hoti hai 
+1)create 
+2)provider
+3)consumer
+
+contextAPI are create to resolve props drilling issue
+
+when there are multiple values we use useContext instead of consumer
+
+
+
+=============================================================================================================
+axios() api is fetch through axios in react
+npm i axios

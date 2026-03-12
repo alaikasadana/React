@@ -1,0 +1,7 @@
+we use form handling to put validation and get values 
+
+while when we use form we also use event onChange() which gets when value is changed or put in an input box 
+
+also to target we use variablename.target.value
+
+jbh hum onchange() pass krte hai tbh eventobject pass hota hai 

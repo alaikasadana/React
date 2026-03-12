@@ -1,0 +1,32 @@
+{
+  "userdata": [
+    {
+      "id": "7c73",
+      "name": "Alaika Sadana",
+      "age": "20",
+      "contact": "8817491824",
+      "city": "Bhopal"
+    },
+    {
+      "id": "ab51",
+      "name": "Shakti man",
+      "age": "30",
+      "contact": "7878567281",
+      "city": "bihar"
+    },
+    {
+      "id": "e26e",
+      "name": "Vikkuuu ",
+      "age": "49",
+      "contact": "55656565",
+      "city": "sehore"
+    },
+    {
+      "id": "ea6f",
+      "name": "Raj teli",
+      "age": "34",
+      "contact": "123456978",
+      "city": "indore"
+    }
+  ]
+}

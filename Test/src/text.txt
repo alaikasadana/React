@@ -1,0 +1,2 @@
+counter usmei less than 0 nhi jana chahiye 
+2 dusre walw se data bhejoge 3 wale ko data dikhega with styling

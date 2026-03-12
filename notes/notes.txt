@@ -117,3 +117,8 @@ and this in plugins : tailwindcss(),
 
 import in index.css
 @import "tailwindcss";
+
+
+
+collection of attributes and parameters
+attributes properties of tags

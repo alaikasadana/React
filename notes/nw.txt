@@ -1,0 +1,56 @@
+states :: 
+
+hooks are  pre-defined function of javascript 
+useState is used to update the data. use state returns array in destructor format
+
+
+example:
+
+import {useState} from "react"
+
+function Home(){
+    let [variable,function] = useState(10)
+
+    return(
+     <>
+     <h1>Home</h1>
+     </>
+     )
+
+
+=====================================================================================================
+useEffect(function, dependency)
+
+    { we use useeffect mainly for api fetch }
+
+1)useEffect without dependency
+     useEffect(function)
+
+2)useEffct with empty dependency
+     useEffect(function,[])
+
+3)useEffect with dependency
+     useEffect(function,[dependency])
+
+
+=======================================================================================================
+components render with the help of url
+(reactrouterdom) (library used for routing it is third party installation)
+
+npm install react-router-dom / npm i react-router-dom
+
+=======================================================================================================
+
+five main components
+
+1)BrowserRouter        (main.jsx)
+2)Routes                 (app.jsx)
+3)Route                    (app.jsx)
+4)Link
+5)Outlet
+
+
+BrowerRouter enables the routing through routes for all the components
+index is used for any page to route by default
+
+=========================================================================================================
